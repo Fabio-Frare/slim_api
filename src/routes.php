@@ -1,10 +1,10 @@
 <?php
-// Routes
 
-$app->get('/[{name}]', function ($request, $response, $args) {
-    // Sample log message
-    $this->logger->info("Slim-Skeleton '/' route");
+use Slim\Http\Request;
+use Slim\Http\Response;
 
-    // Render index view
-    return $this->renderer->render($response, 'index.phtml', $args);
-});
+require __DIR__ . '/routes/produtos.php';
+
+
+
+
