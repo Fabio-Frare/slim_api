@@ -10,6 +10,6 @@ Jorge Sant Ana e Jamilton Damasceno
 Desenvolvimento de uma API de produtos integrada ao banco de dados MySql com Slim Framework. 
 
 Também foi utilizado:
-> Illuminate: integração com bando de dados;
-> JWT: autentificação de consumo da API ;
+- Illuminate: integração com bando de dados;
+- JWT: autentificação de consumo da API ;
 
