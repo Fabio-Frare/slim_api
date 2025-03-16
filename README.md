@@ -1,18 +1,15 @@
-# Slim Framework 3 Skeleton Application
+# Slim_Api
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
+Curso online:
 
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+Domine Web - 20 Cursos - HTML5, CSS3, SASS, Bootstrap, JS, ES6, PHP, MySQL, JQuery, MVC, APIs, IONIC e muito mais
 
-## Install the Application
+Autores:
+Jorge Sant Ana e Jamilton Damasceno
 
-Run this command from the directory in which you want to install your new Slim Framework application.
+Desenvolvimento de uma API de produtos integrada ao banco de dados MySql com Slim Framework. 
 
-    php composer.phar create-project slim/slim-skeleton [my-app-name]
+Também foi utilizado:
+> Illuminate: integração com bando de dados;
+> JWT: autentificação de consumo da API ;
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
-
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writeable.
-
-That's it! Now go build something cool.
