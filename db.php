@@ -18,9 +18,9 @@ $schema->dropIfExists($tabela);
 
 $schema->create($tabela, function($table) {
     $table->increments('id');
-    $table->string('titulo', 100);
-    $table->text('descricao', 100);
-    $table->decimal('preco', 11, 2);
+    $table->string('titulo'    , 100);
+    $table->text('descricao'   , 100);
+    $table->decimal('preco'    , 11, 2);
     $table->string('fabricante', 60);
     $table->timestamps();
 });
@@ -43,6 +43,14 @@ $db->table($tabela)->insert([
     'updated_at' => '2020-01-10'
 ]);
 
+$tabela = 'usuarios';
+$schema->dropIfExists($tabela);
 
+$schema->create($tabela, function($table) {
+    $table->increments('id');
+    $table->string('nome' , 100);
+    $table->string('email', 150);
+    $table->string('senha', 32);
+});
 
 ?>

@@ -24,7 +24,7 @@ $app->group('/api/v1', function() {
     });
 
     $this->put('/produtos/atualiza/{id}', function(Request $request, Response $response, $args) {      
-        $dados = $request->getParsedBody();
+        $dados   = $request->getParsedBody();
         $produto = Produto::findOrFail($args['id']);
         $produto->update($dados);
         return $response->withJson($produto);
